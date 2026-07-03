@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html class="light" lang="id">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport">
+<title>1998 · Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+<style>
+    .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    html, body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f6fafb;
+    }
+    .hide-scrollbar::-webkit-scrollbar { display: none; }
+    .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    @media (prefers-reduced-motion: reduce) {
+        * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+    }
+</style>
+<script id="tailwind-config">
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                colors: {
+                    "tertiary-fixed-dim": "#c2c7cc",
+                    "surface-dim": "#d6dbdc",
+                    "primary-container": "#1b1b1b",
+                    "on-surface-variant": "#4c4546",
+                    "on-secondary-container": "#003c63",
+                    "on-error": "#ffffff",
+                    "outline": "#7e7576",
+                    "on-secondary": "#ffffff",
+                    "surface-container-high": "#e5e9ea",
+                    "on-surface": "#181c1d",
+                    "on-error-container": "#93000a",
+                    "on-secondary-fixed": "#001d33",
+                    "primary-fixed": "#e2e2e2",
+                    "on-primary": "#ffffff",
+                    "secondary-fixed": "#cfe5ff",
+                    "on-primary-container": "#848484",
+                    "tertiary-container": "#171c20",
+                    "secondary": "#00629d",
+                    "secondary-fixed-dim": "#99cbff",
+                    "on-secondary-fixed-variant": "#004a78",
+                    "on-tertiary": "#ffffff",
+                    "outline-variant": "#cfc4c5",
+                    "surface": "#f6fafb",
+                    "primary": "#000000",
+                    "on-tertiary-fixed": "#171c20",
+                    "on-tertiary-fixed-variant": "#42474c",
+                    "on-background": "#181c1d",
+                    "inverse-surface": "#2c3132",
+                    "surface-bright": "#f6fafb",
+                    "error-container": "#ffdad6",
+                    "surface-variant": "#dfe3e4",
+                    "background": "#f6fafb",
+                    "surface-tint": "#5e5e5e",
+                    "on-primary-fixed": "#1b1b1b",
+                    "primary-fixed-dim": "#c6c6c6",
+                    "tertiary-fixed": "#dee3e8",
+                    "inverse-on-surface": "#edf1f2",
+                    "on-primary-fixed-variant": "#474747",
+                    "surface-container": "#eaeef0",
+                    "surface-container-low": "#f0f4f5",
+                    "surface-container-highest": "#dfe3e4",
+                    "surface-container-lowest": "#ffffff",
+                    "on-tertiary-container": "#7f8489",
+                    "error": "#ba1a1a",
+                    "inverse-primary": "#c6c6c6",
+                    "secondary-container": "#39a9ff"
+                },
+                borderRadius: {
+                    DEFAULT: "1rem",
+                    lg: "2rem",
+                    xl: "3rem",
+                    full: "9999px"
+                },
+                spacing: {
+                    "container-max": "600px",
+                    "gutter": "12px",
+                    "stack-sm": "4px",
+                    "edge-margin": "16px",
+                    "stack-lg": "24px",
+                    "stack-md": "12px"
+                },
+                fontSize: {
+                    "label-caps": ["11px", {"lineHeight": "12px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "body-sm": ["13px", {"lineHeight": "18px", "letterSpacing": "0", "fontWeight": "400"}],
+                    "display-lg": ["32px", {"lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                    "body-lg": ["15px", {"lineHeight": "20px", "letterSpacing": "0", "fontWeight": "400"}],
+                    "headline-md": ["20px", {"lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                    "label-bold": ["15px", {"lineHeight": "20px", "letterSpacing": "0", "fontWeight": "700"}],
+                    "display-lg-mobile": ["24px", {"lineHeight": "28px", "letterSpacing": "-0.02em", "fontWeight": "800"}]
+                }
+            }
+        }
+    }
+</script>
+</head>
+<body class="bg-surface-container-lowest text-on-surface">
+
+<!-- TopAppBar -->
+<header class="sticky top-0 z-30 backdrop-blur-md bg-surface-container-lowest/85 border-b border-outline-variant">
+  <div class="max-w-[600px] lg:max-w-5xl mx-auto flex items-center gap-4 px-edge-margin lg:px-10 h-14">
+    <button aria-label="Kembali" class="w-9 h-9 -ml-2 flex items-center justify-center rounded-full hover:bg-surface-container transition-colors lg:hidden">
+      <span class="material-symbols-outlined text-[20px]">arrow_back</span>
+    </button>
+    <div class="flex flex-col leading-none">
+      <span class="font-bold text-[16px] text-on-surface">bana</span>
+      <span class="text-label-caps text-on-surface-variant">cyber account</span>
+    </div>
+  </div>
+</header>
+
+<!-- Main Content Canvas -->
+<main class="max-w-[600px] lg:max-w-5xl mx-auto bg-surface-container-lowest lg:bg-transparent border-x lg:border-x-0 border-outline-variant min-h-screen">
+
+  <!-- Cover Photo -->
+  <div class="h-40 sm:h-48 md:h-52 lg:h-72 w-full bg-surface-container overflow-hidden lg:rounded-b-lg">
+    <img src="image/header.jpeg">
+  </div>
+
+  <!-- Body: single column on mobile, sidebar + content on desktop -->
+  <div class="px-edge-margin lg:px-10 lg:grid lg:grid-cols-[260px_1fr] lg:gap-14">
+
+    <!-- Sidebar: avatar + name, sticky on desktop -->
+    <aside class="lg:sticky lg:top-24 lg:self-start">
+      <div class="-mt-10 sm:-mt-12 md:-mt-16 lg:-mt-[72px] mb-4 lg:mb-6">
+        <div class="w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 rounded-full border-4 border-surface-container-lowest overflow-hidden bg-surface-variant">
+          <img src="image/gracie.jpg">
+        </div>
+      </div>
+      <h1 class="font-display-lg text-display-lg-mobile sm:text-display-lg lg:text-[40px] lg:leading-[1.05] text-on-surface">bana</h1>
+      <p class="mt-3 text-body-sm text-on-surface-variant hidden lg:block">aku mau tripple peach americano seliter</p>
+    </aside>
+
+    <!-- Main content -->
+    <div class="pt-5 lg:pt-8 pb-16">
+
+      <!-- About Me Section -->
+      <section>
+        <div class="flex items-center gap-2 mb-4">
+          <span class="material-symbols-outlined text-[18px] lg:text-[22px] text-on-surface-variant">person</span>
+          <h2 class="text-headline-md lg:text-[26px] text-on-surface">kenalan</h2>
+        </div>
+
+        <div class="space-y-4 text-body-lg lg:text-[17px] lg:leading-relaxed text-on-surface-variant leading-relaxed max-w-2xl">
+          <p>bana. istp. suka misuhin laprak. </p>
+          <p>kalo boleh jujur gua udah sejam di sini nggak tau mau isi apa, maaf yah. saran boleh...? </p>
+        </div>
+
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-4 mt-6 lg:mt-10 max-w-2xl">
+          <div class="rounded-lg border border-outline-variant p-4 lg:p-5 bg-surface-container-low">
+            <span class="material-symbols-outlined text-[20px] text-on-surface-variant">favorite</span>
+            <p class="mt-2 text-label-bold text-on-surface">Interest</p>
+            <p class="text-body-sm text-on-surface-variant"> sketching, coffee, music, photography, physics (especially quantum physics & astrophysics)</p>
+          </div>
+         <div class="rounded-lg border border-outline-variant p-4 lg:p-5 bg-surface-container-low">
+            <span class="material-symbols-outlined text-[20px] text-on-surface-variant">music_note</span>
+            <p class="mt-2 text-label-bold text-on-surface">Spotify</p>
+            <a href="https://open.spotify.com/user/nb24rf22o39xgft8bpxtvqw1j?si=d522d0cd16424112" 
+                target="_blank" 
+                 class="text-body-sm text-secondary underline">
+                udah siap belom
+            </a>
+        </div>
+          <div class="rounded-lg border border-outline-variant p-4 lg:p-5 bg-surface-container-low hidden lg:block">
+            <span class="material-symbols-outlined text-[20px] text-on-surface-variant">photo_camera</span>
+            <p class="mt-2 text-label-bold text-on-surface">Bingung</p>
+            <p class="text-body-sm text-on-surface-variant">foto kita blur...?</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
